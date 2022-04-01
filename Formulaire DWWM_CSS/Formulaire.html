@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="pel.css">
+  </head>
+  <body>
+      <h1>Formulaire DWWM</h1>
+    <form method="post">
+      <div class="">
+        <div class="libelle">
+          Nom
+        </div>
+        <input type="text" placeholder="Entrez votre nom" class="LA">
+      </div>
+      <br/>
+      <div class="">
+        <div class="libelle">
+          Email
+        </div>
+        <input type="text" placeholder="Email" class="LA">
+      </div>
+      <br/>
+      <div class="">
+        <div class="libelle">
+          Indiquez votre satisfaction au cours de 1 à 10
+        </div>
+        <input type="text" placeholder="numéro de 1 à 10" class="LA">
+      </div>
+      <br/>
+      <div class="">
+        <div class="libelle">
+          Qui est votre coach ?
+        </div>
+        <select class="LA">
+          <option value="Birante">Birante</option>
+          <option value="Malick">Malick</option>
+          <option value="Mamadou">Mamadou</option>
+        </select>
+      </div>
+        <br/>
+      <div class="">
+        <div class="libelle">
+          A quel moment avez-vous cours?
+        </div>
+        <div class="LA">
+          <input type="radio" value="Matin"> Matin</input><br/>
+          <input type="radio"> Après-midi</input><br/>
+          <input type="radio"> Soir</input><br/>
+        </div>
+      </div>
+    <div class="">
+      <div class="libelle">Quels outils avez-vous rencontrés jusque_là ? <br/> (Selectionner tout ce qui <span class="LU">s'applique)</span>
+      </div>
+      <div class="LO">
+        <input type="checkbox"> HTML</input><br/>
+        <input type="checkbox"> CSS</input><br/>
+        <input type="checkbox"> Javascript</input><br/>
+        <input type="checkbox"> Editeur de texte</input><br/>
+        <input type="checkbox"> Ligne de commande</input>
+      </div>
+    </div>
+    <div class="">
+    <div class="libelle">Décrivez votre expérience jusque-là
+    </div>
+      <textarea rows="5" cols="35" placeholder="Décrivez votre expérience ici" class="LA"></textarea>
+    </div>
+    <div class="">
+      <input type="submit"class="LI"></input>
+    </div>
+  </form>
+  </body>
+</html>
